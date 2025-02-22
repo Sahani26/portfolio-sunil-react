@@ -3,6 +3,7 @@ import instagramIcon from "../image/instagram-white.png";
 import linkedinIcon from "../image/linkedin-ico.png";
 import githubIcon from "../image/github-ico.png";
 import youtubeIcon from "../image/yt-ico.png";
+import xIcon from "../image/x-icon.png"; // Update path accordingly
 
 const Footer = () => {
   return (
@@ -28,6 +29,9 @@ const Footer = () => {
               <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sunil1626_/?hl=en">
                 <img className="main-footer__icon" src={instagramIcon} alt="Instagram Profile" />
               </a>
+    <a target="_blank" rel="noreferrer" href="https://twitter.com/your_x_account">
+  <img className="main-footer__icon" src={xIcon} alt="X Profile" />
+</a>
             </div>
           </div>
 
