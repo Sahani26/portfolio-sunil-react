@@ -19,7 +19,8 @@ const Headerport = () => {
         {/* Logo Section */}
         <div className="header__logo-container">
           <div className="header__logo-img-cont">
-            <img src={logoImage} alt="Logo" className="header__logo-img" />
+          <a href="/" className="header__logo-link">
+            <img src={logoImage} alt="Logo" className="header__logo-img" /></a>
           </div>
           <span className="header__logo-sub">SUNIL SAHANI</span>
         </div>

@@ -26,9 +26,14 @@ const MainContent = () => {
               I am passionate about building <strong>scalable and efficient</strong> e-commerce solutions and continuously improving my skills in <strong>ASP.NET development</strong>.
             </p>
           </div>
-          <div className="home-hero__cta">
-            <Link to="/#projects" className="btn btn--bg">My Projects</Link>
+         <div className="main-page-bt">
+         <div className="home-hero__cta">
+            <Link to="/project" className="btn btn--bg">My Projects</Link>
           </div>
+          <div className="home-hero__cta last-bt">
+            <Link to="/#projects" className="btn btn--bg">Study Material</Link>
+          </div>
+         </div>
         </div>
         {/* Social Links */}
         <div className="home-hero__socials">
@@ -45,7 +50,50 @@ const MainContent = () => {
           ))}
         </div>
       </section>
-
+{/* about us */}
+<section id="about" className="about sec-pad">
+      <div className="main-container">
+        <h2 className="heading heading-sec heading-sec__mb-med">
+          <span className="heading-sec__main">About Me</span>
+          <span className="heading-sec__sub">
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology.
+          </span>
+        </h2>
+        <div className="about__content">
+          <div className="about__content-main">
+            <h3 className="about__content-title">Get to know me!</h3>
+            <div className="about__content-details">
+              <p className="about__content-details-para">
+                I'm a <strong>Web Developer</strong> building and managing the Front-end of Websites and Web Applications that
+                leads to the success of the overall product. Check out some of
+                my work in the <strong>Projects</strong> section.
+              </p>
+              <p className="about__content-details-para">
+                I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that
+                matches my skills and experience then don't hesitate to
+                <strong> contact</strong> me.
+              </p>
+              <p className="about__content-details-para">
+                MATLAB Certification by <strong>IIT Kanpur (ICT)</strong>
+              </p>
+              <p className="about__content-details-para">
+                <strong>Ranked 2nd</strong> in class during my graduation, demonstrating consistent academic excellence and a strong commitment to learning and problem-solving.
+              </p>
+            </div>
+            <a href="#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a>
+          </div>
+          <div className="about__content-skills">
+            <h3 className="about__content-title">My Skills</h3>
+            <div className="skills">
+              {["HTML", "HTML5", "CSS", "Bootstrap", "CSS3", "JQUERY", "C#", ".NET Framework", ".NET Core", "ASP.NET MVC", "nopCommerce", "Nop"].map(skill => (
+                <div className="skills__skill" key={skill}>{skill}</div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
       {/* Projects Section */}
       <section id="projects" className="projects sec-pad">
         <div className="main-container">
@@ -73,6 +121,21 @@ const MainContent = () => {
         </div>
       </section>
       {/* <ContactUs />   */}
+      <section id="contact" className="contact sec-pad dynamicBg">
+      <div className="main-container">
+        <h2 className="heading heading-sec heading-sec__mb-med">
+          <span className="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span className="heading-sec__sub heading-sec__sub--lt">
+            Feel free to Contact me by submitting the form below and I will get
+            back to you as soon as possible.
+          </span>
+        </h2>
+        <div className="contact__form-container">
+          <p>Email: <a href="mailto:sunilsahani484@gmail.com">sunilsahani484@gmail.com</a></p>
+          <p>Call: <a href="tel:+919695839080">+91 96958 39080</a></p>
+        </div>
+      </div>
+    </section>
     </>
   );
 };

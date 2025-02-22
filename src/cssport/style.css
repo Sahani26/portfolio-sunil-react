@@ -563,7 +563,11 @@ h3.projects__row-content-title {
     visibility: visible;
     background-color: transparent;
 }
-
+.main-page-bt{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
 #top-btn::after{
     background: url('../image/back-top.png') no-repeat center;
     background-size: 10px;
@@ -606,6 +610,13 @@ h3.projects__row-content-title {
         width: 50px;
         height: 50px;
         margin-right: 10px;
+    }
+    .main-page-bt{
+      flex-direction: column;
+       
+    }
+    .last-bt{
+        margin-top: 0 !important;
     }
     .header__logo-sub{
         font-size: 14px;
@@ -802,4 +813,8 @@ h3.projects__row-content-title {
     .projects__row{
         grid-template-columns: 1fr 1fr;
     }
+}
+.trst{
+    height: 600px;
+    border-color: red;
 }
