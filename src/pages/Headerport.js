@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../cssport/style.css"; // Ensure you create and style this file
 import "../css/newadd.css"; // Ensure you create and style this file
+import "../css/mdb.css"
 import logoImage from "../image/107791326.jpg";
 import hamMenuIcon from "../image/ham-menu.svg";
 import hamMenuCloseIcon from "../image/ham-menu-close.svg";
@@ -18,11 +19,12 @@ const Headerport = () => {
       <div className="header__content">
         {/* Logo Section */}
         <div className="header__logo-container">
+        <Link to="/" className="header__logo-link">
           <div className="header__logo-img-cont">
-          <a href="/" className="header__logo-link">
-            <img src={logoImage} alt="Logo" className="header__logo-img" /></a>
+          
+            <img src={logoImage} alt="Logo" className="header__logo-img" />
           </div>
-          <span className="header__logo-sub">SUNIL SAHANI</span>
+          <span className="header__logo-sub">SUNIL SAHANI</span></Link>
         </div>
 
         {/* Navigation Menu */}
@@ -41,7 +43,7 @@ const Headerport = () => {
               <Link to="/#contact" className="header__link" id="contact-page">Contact</Link>
             </li>
             <li className="header__link-wrapper">
-              <Link to="/study-material" className="header__link" id="study-page">Study Material</Link>
+              <Link to="/study" className="header__link" id="study-page">Study Material</Link>
             </li>
           </ul>
 

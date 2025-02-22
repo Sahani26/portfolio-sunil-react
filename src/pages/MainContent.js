@@ -31,7 +31,7 @@ const MainContent = () => {
             <Link to="/project" className="btn btn--bg">My Projects</Link>
           </div>
           <div className="home-hero__cta last-bt">
-            <Link to="/#projects" className="btn btn--bg">Study Material</Link>
+            <Link to="/study" className="btn btn--bg">Study Material</Link>
           </div>
          </div>
         </div>
@@ -117,6 +117,9 @@ const MainContent = () => {
                 </div>
               </div>
             ))}
+            <div class="view-more-project">
+             <Link to="/study">view More Project</Link>
+          </div>
           </div>
         </div>
       </section>

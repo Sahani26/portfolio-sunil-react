@@ -65,7 +65,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 2px 50px;
+}
+.header__main ul{
+    margin-bottom: 0;
 }
 
 .header__logo-container {
@@ -81,11 +84,11 @@ a{
 }
 
 .header__logo-img-cont {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     overflow: hidden;
-    margin-right: 1.5rem;
+    margin-right: .5rem;
     border: 2px solid var(--hover-color);
 }
 
@@ -814,7 +817,8 @@ h3.projects__row-content-title {
         grid-template-columns: 1fr 1fr;
     }
 }
-.trst{
-    height: 600px;
-    border-color: red;
+a.header__logo-link {
+    display: flex
+;
+    align-items: center;
 }

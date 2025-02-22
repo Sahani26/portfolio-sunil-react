@@ -27,8 +27,12 @@
 .card img.img-fluid {
     height: 100%;
 }
+
 @media (min-width:767px){
     .home-hero{
         height: 50vh;
+    }
+    main.study-content,.pt{
+        padding-top: 35px;
     }
 }
