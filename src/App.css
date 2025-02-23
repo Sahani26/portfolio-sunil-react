@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.favicon {
+  width: 32px; /* Adjust size as needed */
+  height: 32px;
+  border-radius: 50%;
+}
