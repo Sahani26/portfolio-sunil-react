@@ -118,7 +118,7 @@ const MainContent = () => {
               </div>
             ))}
             <div class="view-more-project">
-             <Link to="/study">view More Project</Link>
+             <Link to="/project">view More Project</Link>
           </div>
           </div>
         </div>
