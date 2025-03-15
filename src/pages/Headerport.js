@@ -34,13 +34,13 @@ const Headerport = () => {
               <Link to="/" className="header__link" id="home-page">Home</Link>
             </li>
             <li className="header__link-wrapper">
-              <Link to="/#about" className="header__link" id="about-page">About</Link>
+              <Link to="/" className="header__link" id="about-page">About</Link>
             </li>
             <li className="header__link-wrapper">
               <Link to="/project" className="header__link" id="project-page">Projects</Link>
             </li>
             <li className="header__link-wrapper">
-              <Link to="/#contact" className="header__link" id="contact-page">Contact</Link>
+              <Link to="/contact" className="header__link" id="contact-page">Contact</Link>
             </li>
             <li className="header__link-wrapper">
               <Link to="/study" className="header__link" id="study-page">Study Material</Link>
@@ -74,16 +74,16 @@ const Headerport = () => {
               <Link to="/" onClick={toggleMenu}>Home</Link>
             </li>
             <li className="header__sm-menu-link">
-              <Link to="/#about" onClick={toggleMenu}>About</Link>
+              <Link to="/" onClick={toggleMenu}>About</Link>
             </li>
             <li className="header__sm-menu-link">
               <Link to="/project" onClick={toggleMenu}>Projects</Link>
             </li>
             <li className="header__sm-menu-link">
-              <Link to="/#contact" onClick={toggleMenu}>Contact</Link>
+              <Link to="/" onClick={toggleMenu}>Contact</Link>
             </li>
             <li className="header__sm-menu-link">
-              <Link to="/study-material" onClick={toggleMenu}>Study Material</Link>
+              <Link to="/study" onClick={toggleMenu}>Study Material</Link>
             </li>
           </ul>
         </div>

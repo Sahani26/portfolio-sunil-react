@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import linkedinIcon from "../image/linkedin-dark.svg";
+import githubIcon from "../image/github-dark.svg";
+import youtubeIcon from "../image/yt-dark.svg";
+import instagramIcon from "../image/instagram.png";
 import pluginImage from "../image/plugin.png";
 import crudImage from "../image/CRUD.png";
 import aspnetImage from "../image/crusaspnet.png";
@@ -8,7 +11,22 @@ import aspnetImage from "../image/crusaspnet.png";
 const Study = () => {
     return (
         // main-comtemt
+        <div className="study-page">
         <div className="main-con pt">
+                 {/* Social Links */}
+        <div className="home-hero__socials">
+          {[{ link: "http://linkedin.com/in/sunil-sahani-800875310/", img: linkedinIcon, alt: "LinkedIn" },
+            { link: "https://github.com/Sahani26", img: githubIcon, alt: "GitHub" },
+            { link: "#", img: youtubeIcon, alt: "YouTube" },
+            { link: "https://www.instagram.com/sunil1626_/?hl=en", img: instagramIcon, alt: "Instagram" },
+          ].map((social, index) => (
+            <div className="home-hero__social" key={index}>
+              <a href={social.link} target="_blank" rel="noreferrer">
+                <img src={social.img} alt={`Sunil Sahani ${social.alt} Profile`} className="home-hero__social-icon" />
+              </a>
+            </div>
+          ))}
+        </div>
             <div id="intro" className="p-5 text-center bg-light">
                 <h1 className="heading-primary">Hey, I'm Sunil Sahani</h1>
                 <div className="home-hero__info">
@@ -20,12 +38,13 @@ const Study = () => {
                     </p>
                 </div>
            
-                <Link to="/" className="btn btn-primary m-2"  >
+                <Link to="/" className="btn   m-2 study-bt"  >
                     View portfolio
                 </Link>
-                <Link className="btn btn-primary m-2" href="#" target="_blank" role="button">
+                <Link className="btn   m-2 study-bt" href="#" target="_blank" role="button">
                     Download my resume
                 </Link>
+            </div>
             </div>
             {/* ------- */}
             <main className="study-content">

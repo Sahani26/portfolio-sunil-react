@@ -27,7 +27,19 @@
 .card img.img-fluid {
     height: 100%;
 }
-
+.intro a{
+    background-color: #ff561f !important;
+  
+}
+.main-con{
+    position: relative;
+}
+ 
+.study-bt{
+    background-color: #ff561f !important;
+    color: #fff !important;
+    padding:15px 25px  !important;
+}
 @media (min-width:767px){
     .home-hero{
         height: 50vh;

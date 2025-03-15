@@ -10,6 +10,7 @@ import Study from "./pages/Study.js"
 import Aspnet from "./study-topic-page/aspnet.js"
 import FirstPlugin from "./study-topic-page/FirstPlugin.js"
 import CRUD460 from "./study-topic-page/CRUD460.js"
+import Experience from "./pages/Experience.js"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Routes>
  
         <Route path="/" element={<MainContent />} />
+        <Route path="/ex" element={<Experience />} />
         <Route path="/project" element={<Project />} />
         <Route path="/study" element={<Study />} />
         <Route path="/aspnet" element={<Aspnet />} />

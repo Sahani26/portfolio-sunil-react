@@ -4,6 +4,7 @@ import linkedinIcon from "../image/linkedin-ico.png";
 import githubIcon from "../image/github-ico.png";
 import youtubeIcon from "../image/yt-ico.png";
 import xIcon from "../image/x-icon.png"; // Update path accordingly
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -51,7 +52,7 @@ const Footer = () => {
         {/* Lower Footer Section */}
         <div className="main-footer__lower">
           © {new Date().getFullYear()} Made by 
-          <a rel="noreferrer" target="_blank" href="#"> Sunil Sahani</a>
+          <span rel="noreferrer" target="_blank" to=""> Sunil Sahani</span>
         </div>
       </div>
     </footer>
