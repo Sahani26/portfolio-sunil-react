@@ -74,13 +74,13 @@ const Headerport = () => {
               <Link to="/" onClick={toggleMenu}>Home</Link>
             </li>
             <li className="header__sm-menu-link">
-              <Link to="/" onClick={toggleMenu}>About</Link>
+              <Link to="/about" onClick={toggleMenu}>About</Link>
             </li>
             <li className="header__sm-menu-link">
               <Link to="/project" onClick={toggleMenu}>Projects</Link>
             </li>
             <li className="header__sm-menu-link">
-              <Link to="/" onClick={toggleMenu}>Contact</Link>
+              <Link to="/contact" onClick={toggleMenu}>Contact</Link>
             </li>
             <li className="header__sm-menu-link">
               <Link to="/study" onClick={toggleMenu}>Study Material</Link>

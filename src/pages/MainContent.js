@@ -104,49 +104,45 @@
               <span className="heading-sec__sub">Here you will find client projects I have worked on.</span>
             </h2>
 
-            <div className="projects__content">
-              {[{ title: "House Labels", description: "HouseLabels.com is an e-commerce website specializing in thermal labels...", img: hlImage, link: "https://www.houselabels.com/" },
-                { title: "i Repair Center", description: "iRepair-Centre.co.uk is a service-based e-commerce website specializing in smartphone...", img: iRepairImage, link: "https://irepair-centre.co.uk/" },
-              ].map((project, index) => (
-                <div className="projects__row" key={index}>
-                  <div className="projects__row-img-cont">
-                    <img src={project.img} alt={project.title} className="projects__row-img" loading="lazy" />
-                  </div>
-                  <div className="projects__row-content">
-                    <h3 className="projects__row-content-title">{project.title}</h3>
-                    <p>{project.description}</p>
-                    <a className="btn btn--med btn--theme dynamicBgClr" href={project.link} target="_blank" rel="noreferrer">View Project</a>
-                  </div>
+          <div className="projects__content">
+            {[{ title: "House Labels", description: "HouseLabels.com is an e-commerce website specializing in thermal labels...", img: hlImage, link: "https://www.houselabels.com/" },
+              { title: "i Repair Center", description: "iRepair-Centre.co.uk is a service-based e-commerce website specializing in smartphone...", img: iRepairImage, link: "https://irepair-centre.co.uk/" },
+            ].map((project, index) => (
+              <div className="projects__row" key={index}>
+                <div className="projects__row-img-cont">
+                  <img src={project.img} alt={project.title} className="projects__row-img" loading="lazy" />
                 </div>
-              ))}
-              <div class="view-more-project">
-              <Link to="/study">view More Project</Link>
-            </div>
-            </div>
+                <div className="projects__row-content">
+                  <h3 className="projects__row-content-title">{project.title}</h3>
+                  <p>{project.description}</p>
+                  <a className="btn btn--med btn--theme dynamicBgClr" href={project.link} target="_blank" rel="noreferrer">View Project</a>
+                </div>
+              </div>
+            ))}
+            <div class="view-more-project">
+             <Link to="/study">view More Project</Link>
           </div>
-        </section>
-        <div className="experience-area">
-  <Experience />
-  </div>
-
-        {/* <ContactUs />   */}
-        <section id="contact" className="contact sec-pad dynamicBg">
-        <div className="main-container">
-          <h2 className="heading heading-sec heading-sec__mb-med">
-            <span className="heading-sec__main heading-sec__main--lt">Contact</span>
-            <span className="heading-sec__sub heading-sec__sub--lt">
-              Feel free to Contact me by submitting the form below and I will get
-              back to you as soon as possible.
-            </span>
-          </h2>
-          <div className="contact__form-container">
-            <p>Email: <a href="mailto:sunilsahani484@gmail.com">sunilsahani484@gmail.com</a></p>
-            <p>Call: <a href="tel:+919695839080">+91 96958 39080</a></p>
           </div>
         </div>
       </section>
-      </>
-    );
-  };
+      {/* <ContactUs />   */}
+      <section id="contact" className="contact sec-pad dynamicBg">
+      <div className="main-container">
+        <h2 className="heading heading-sec heading-sec__mb-med">
+          <span className="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span className="heading-sec__sub heading-sec__sub--lt">
+            Feel free to Contact me by submitting the form below and I will get
+            back to you as soon as possible.
+          </span>
+        </h2>
+        <div className="contact__form-container">
+          <p>Email: <a href="mailto:sunilsahani484@gmail.com">sunilsahani484@gmail.com</a></p>
+          <p>Call: <a href="tel:+919695839080">+91 96958 39080</a></p>
+        </div>
+      </div>
+    </section>
+    </>
+  );
+};
 
   export default MainContent;
