@@ -8,6 +8,7 @@ import pluginImage from "../image/plugin.png";
 import crudImage from "../image/CRUD.png";
 import aspnetImage from "../image/crusaspnet.png";
 
+
 const Study = () => {
     return (
         // main-comtemt
@@ -132,7 +133,7 @@ const Study = () => {
                                         <h5 className="card-title">Post title</h5>
                                         <p className="card-text">print all country name from  database 4.7</p>
                                         <div className="topic-button">
-                                            <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                            {/* <Link to="/aspnet" className="btn btn-primary">Read</Link> */}
                                             <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Widgets.NewTest.zip">Download ZIP</a>
                                         </div></div>
                                 </div>
@@ -150,7 +151,8 @@ const Study = () => {
                                     <div className="card-body">
                                         <h5 className="card-title">Post title</h5>
                                         <p className="card-text">data call from database in nopCommerce plugin 4.70.5</p>
-                                        <div className="topic-button">   <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                        <div className="topic-button"> 
+                                              {/* <Link to="/aspnet" className="btn btn-primary">Read</Link> */}
                                             <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Nop.Plugin.Tutorial.DistOfCustByCountry.zip">Download ZIP</a>                                    </div>
                                     </div></div></div>
                             {/* Card 6 */}
@@ -165,8 +167,28 @@ const Study = () => {
                                     <div className="card-body">
                                         <h5 className="card-title">Post title</h5>
                                         <p className="card-text">4.70. plugin print customer email</p>
-                                        <div className="topic-button">  <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                        <div className="topic-button">
+                                              {/* <Link to="/aspnet" className="btn btn-primary">Read</Link> */}
                                             <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Nop.Plugin.Widgets.PrintCustomers.zip">Download ZIP</a>      </div>                          </div></div>
+                                {/* ---- */}
+                            </div>
+
+
+                                       {/* Card 7 */}
+                                       <div className="col-lg-3 col-md-12 mb-4">
+                                <div className="card">
+                                    <div className="bg-image hover-overlay">
+                                        <img src={githubIcon} className="img-fluid" alt="ASP.NET CRUD" />
+                                        <Link to="#">
+                                            <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                        </Link>
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Post title</h5>
+                                        <p className="card-text">For more plugin visit my Github</p>
+                                        <div className="topic-button">
+                                              {/* <Link to="/aspnet" className="btn btn-primary">Read</Link> */}
+                                            <a className="btn btn-primary " href="https://github.com/Sahani26?tab=repositories">Github</a>      </div>                          </div></div>
                                 {/* ---- */}
                             </div>
                         </div>

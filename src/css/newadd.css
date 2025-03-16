@@ -18,6 +18,9 @@
     font-size: 14px !important;
 
 }
+#intro a{
+    font-weight: 600;
+}
 .card-title{
     display: none;
 }
