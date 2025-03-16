@@ -18,11 +18,14 @@
     font-size: 14px !important;
 
 }
+.card-title{
+    display: none;
+}
 .card p.card-text {
     min-height: 40px;
 }
 .card .bg-image.hover-overlay {
-    height: 230px;
+    height: 150px;
 }
 .card img.img-fluid {
     height: 100%;
@@ -34,7 +37,11 @@
 .main-con{
     position: relative;
 }
- 
+ .topic-button{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+ }
 .study-bt{
     background-color: #ff561f !important;
     color: #fff !important;

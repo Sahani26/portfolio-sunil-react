@@ -119,12 +119,16 @@
                 </div>
               </div>
             ))}
-            <div class="view-more-project">
+            <div className="view-more-project">
              <Link to="/study">view More Project</Link>
           </div>
           </div>
         </div>
       </section>
+
+      <div className="exp-area">
+        <Experience/>
+      </div>
       {/* <ContactUs />   */}
       <section id="contact" className="contact sec-pad dynamicBg">
       <div className="main-container">

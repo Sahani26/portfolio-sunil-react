@@ -15,20 +15,20 @@ const Study = () => {
             <div className="main-con pt">
 
 
-            <div className="home-hero__socials">
-            {[{ link: "http://linkedin.com/in/sunil-sahani-800875310/", img: linkedinIcon, alt: "LinkedIn" },
-              { link: "https://github.com/Sahani26", img: githubIcon, alt: "GitHub" },
-              { link: "#", img: youtubeIcon, alt: "YouTube" },
-              { link: "https://www.instagram.com/sunil1626_/?hl=en", img: instagramIcon, alt: "Instagram" },
-            ].map((social, index) => (
-              <div className="home-hero__social" key={index}>
-                <a href={social.link} target="_blank" rel="noreferrer">
-                  <img src={social.img} alt={`Sunil Sahani ${social.alt} Profile`} className="home-hero__social-icon" />
-                </a>
-              </div>
-            ))}
-          </div>
-                 <div id="intro" className="p-5 text-center bg-light">
+                <div className="home-hero__socials">
+                    {[{ link: "http://linkedin.com/in/sunil-sahani-800875310/", img: linkedinIcon, alt: "LinkedIn" },
+                    { link: "https://github.com/Sahani26", img: githubIcon, alt: "GitHub" },
+                    { link: "#", img: youtubeIcon, alt: "YouTube" },
+                    { link: "https://www.instagram.com/sunil1626_/?hl=en", img: instagramIcon, alt: "Instagram" },
+                    ].map((social, index) => (
+                        <div className="home-hero__social" key={index}>
+                            <a href={social.link} target="_blank" rel="noreferrer">
+                                <img src={social.img} alt={`Sunil Sahani ${social.alt} Profile`} className="home-hero__social-icon" />
+                            </a>
+                        </div>
+                    ))}
+                </div>
+                <div id="intro" className="p-5 text-center bg-light">
                     <h1 className="heading-primary">Hey, I'm Sunil Sahani</h1>
                     <div className="home-hero__info">
                         <p className="text-primary">
@@ -58,7 +58,27 @@ const Study = () => {
 
                         <div className="row">
                             {/* Card 1 */}
-                            <div className="col-lg-4 col-md-12 mb-4">
+
+                            <div className="col-lg-3 col-md-12 mb-4">
+                                <div className="card">
+                                    <div className="bg-image hover-overlay">
+                                        <img src={aspnetImage} className="img-fluid" alt="ASP.NET CRUD" />
+                                        <Link to="#">
+                                            <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                        </Link>
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Post title</h5>
+                                        <p className="card-text">How to create CRUD in ASP.NET Core with user</p>
+                                        <div className="topic-button">
+                                            <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                            <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/CRUD-asp-net-mvc.zip">Download ZIP</a>
+                                        </div>  </div>
+                                </div>
+                            </div>
+                            {/* Card 2 */}
+
+                            <div className="col-lg-3 col-md-12 mb-4">
                                 <div className="card">
                                     <div className="bg-image hover-overlay">
                                         <img src={pluginImage} className="img-fluid" alt="Plugin" />
@@ -69,13 +89,15 @@ const Study = () => {
                                     <div className="card-body">
                                         <h5 className="card-title">Post title</h5>
                                         <p className="card-text">Create first nopcommerce plugin 4.70.0 for Beginner</p>
-                                        <Link to="/firstplugin" className="btn btn-primary">Read</Link>
+                                        <div className="topic-button">
+                                            <Link to="/firstplugin" className="btn btn-primary">Read</Link>
+                                            <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Nop.Plugin.Widgets.MyFristPlugin.zip">Download ZIP</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-                            {/* Card 2 */}
-                            <div className="col-lg-4 col-md-6 mb-4">
+                            {/* Card 3 */}
+                            <div className="col-lg-3 col-md-6 mb-4">
                                 <div className="card">
                                     <div className="bg-image hover-overlay">
                                         <img src={crudImage} className="img-fluid" alt="CRUD Plugin" />
@@ -86,13 +108,19 @@ const Study = () => {
                                     <div className="card-body">
                                         <h5 className="card-title">Post title</h5>
                                         <p className="card-text">How to create CRUD plugin in nopCommerce 4.60.0</p>
-                                        <Link to="/crud-nopCommercer-4.60" className="btn btn-primary">Read</Link>
+                                        <div className="topic-button">
+                                            <Link to="/crud-nopCommercer-4.60" className="btn btn-primary ">Read</Link>
+                                            <a href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Nop.Plugin.Misc.RecentViewProducts.zip" className="btn btn-primary " download>Download ZIP</a>
+
+                                        </div>
                                     </div>
+
+
                                 </div>
                             </div>
 
-                            {/* Card 3 */}
-                            <div className="col-lg-4 col-md-12 mb-4">
+                            {/* Card 4 */}
+                            <div className="col-lg-3 col-md-12 mb-4">
                                 <div className="card">
                                     <div className="bg-image hover-overlay">
                                         <img src={aspnetImage} className="img-fluid" alt="ASP.NET CRUD" />
@@ -102,10 +130,44 @@ const Study = () => {
                                     </div>
                                     <div className="card-body">
                                         <h5 className="card-title">Post title</h5>
-                                        <p className="card-text">How to create Blog CRUD in ASP.NET Core with user</p>
-                                        <Link to="/aspnet" className="btn btn-primary">Read</Link>
-                                    </div>
+                                        <p className="card-text">print all country name from  database 4.7</p>
+                                        <div className="topic-button">
+                                            <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                            <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Widgets.NewTest.zip">Download ZIP</a>
+                                        </div></div>
                                 </div>
+                            </div>
+
+                            {/* Card 5 */}
+                            <div className="col-lg-3 col-md-12 mb-4">
+                                <div className="card">
+                                    <div className="bg-image hover-overlay">
+                                        <img src={aspnetImage} className="img-fluid" alt="ASP.NET CRUD" />
+                                        <Link to="#">
+                                            <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                        </Link>
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Post title</h5>
+                                        <p className="card-text">data call from database in nopCommerce plugin 4.70.5</p>
+                                        <div className="topic-button">   <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                            <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Nop.Plugin.Tutorial.DistOfCustByCountry.zip">Download ZIP</a>                                    </div>
+                                    </div></div></div>
+                            {/* Card 6 */}
+                            <div className="col-lg-3 col-md-12 mb-4">
+                                <div className="card">
+                                    <div className="bg-image hover-overlay">
+                                        <img src={aspnetImage} className="img-fluid" alt="ASP.NET CRUD" />
+                                        <Link to="#">
+                                            <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                        </Link>
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Post title</h5>
+                                        <p className="card-text">4.70. plugin print customer email</p>
+                                        <div className="topic-button">  <Link to="/aspnet" className="btn btn-primary">Read</Link>
+                                            <a className="btn btn-primary " href="https://github.com/Sahani26/nopCommerce-plugin/raw/refs/heads/main/Nop.Plugin.Widgets.PrintCustomers.zip">Download ZIP</a>      </div>                          </div></div>
+                                {/* ---- */}
                             </div>
                         </div>
                     </section>
