@@ -5,6 +5,7 @@ import hlImage from "../image/hl.png";
 import iRepairImage from "../image/i-repair.png";
 import homeHealthImage from "../image/home-health.png";
 import italiyaImage from "../image/italiya.png";
+import redseller from "../image/redseller.png"
 
 const projects = [
   {
@@ -34,6 +35,13 @@ const projects = [
       "DrHareshItaliya.com is a personal or professional website, likely dedicated to Dr. Haresh Italiya’s medical practice or expertise. The site features a simple and informative layout, providing details about services, qualifications, and contact information. It may include appointment booking, patient testimonials, and a blog for health-related insights.",
     imgSrc: italiyaImage,
     link: "http://drhareshitaliya.com/",
+  },
+  {
+    title: "RedSeller",
+    description:
+      "Redseller is a unique platform that specializes in showcasing a wide range of gadgets such as refurbished laptops, desktops, printers, and graphic cards. Whether you are a super stockiest looking to attract customers from all over India or a local dealer seeking the best rates for products in your locality, Red Seller has got you covered. With thousands of ads listed on our platform, we provide a convenient and efficient way for both buyers and sellers to connect and transact.",
+    imgSrc: redseller,
+    link: "https://redseller.in/",
   },
 ];
 
