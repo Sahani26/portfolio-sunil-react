@@ -126,9 +126,9 @@
         </div>
       </section>
 
-      <div className="exp-area">
+      {/* <div className="exp-area">
         <Experience/>
-      </div>
+      </div> */}
       {/* <ContactUs />   */}
       <section id="contact" className="contact sec-pad dynamicBg">
       <div className="main-container">
