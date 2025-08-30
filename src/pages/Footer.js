@@ -43,7 +43,7 @@ const Footer = () => {
               I am a Full Stack Developer working on both front-end and back-end development in nopCommerce.
               I have experience in customizing nopCommerce plugins, developing themes, and implementing CRUD operations.
               My expertise includes <strong>ASP.NET Core, C#, Entity Framework, and SQL Server</strong>.
-              <br /><br />
+              <br /><br /> 
               I am passionate about building scalable and efficient e-commerce solutions and continuously improving my skills in ASP.NET development.
             </p>
           </div>
