@@ -6,11 +6,12 @@ A sleek, responsive showcase of my work, skills, and contact information.
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
 - [About](#about)  
 - [Built With](#built-with)  
 - [Features](#features)  
+- [Screenshots](#screenshots)  
 - [Getting Started](#getting-started)  
 - [Installation](#installation)  
 - [Usage](#usage)  
@@ -20,45 +21,53 @@ A sleek, responsive showcase of my work, skills, and contact information.
 
 ---
 
-##  About
+## About
 
-This portfolio is designed to highlight my development projects, technical skills, and background. The site is built with React and hosted using modern tooling to ensure performance and responsiveness across devices.
-
----
-
-##  Built With
-
-- **React** – JavaScript library for building user interfaces.  
-- **CSS** (or whatever you used—e.g., styled-components, Tailwind, etc.) – for styling and responsive design.  
-- **GitHub** – Version control and source repository.  
-- **Vercel** – Continuous deployment and hosting platform for React apps.  
-- *(Adjust according to your actual stack.)*
+This portfolio highlights my development projects, technical skills, and background. The site is built with React and hosted using modern tooling to ensure performance and responsiveness across devices.
 
 ---
 
-##  Features
+## Built With
 
-- Fully responsive layout for mobile and desktop.  
-- Multi-section structure (e.g., Home, About, Projects, Skills, Contact).  
-- Smooth scrolling and fast load times via React's virtual DOM.  
-- Easy to customize colors, fonts, and content.
-
-*(Modify this to match what your portfolio actually includes.)*
+- **React**  
+- **CSS / TailwindCSS** (adjust based on your project)  
+- **GitHub**  
+- **Vercel**
 
 ---
 
-##  Getting Started
+## Features
 
-Follow these instructions to run the project locally and make changes.
+- Fully responsive design  
+- Sections for About, Projects, Skills, and Contact  
+- Smooth scrolling & clean UI  
+- Hosted with automatic deployment  
+
+---
+
+## Screenshots
+
+### 🏠 Home Page
+![Home Screenshot](screenshots/home.png)
+
+### 📂 Projects Section
+![Projects Screenshot](screenshots/projects.png)
+
+### 📞 Contact Section
+![Contact Screenshot](screenshots/contact.png)
+
+*(Replace with actual screenshots — you can save them as `home.png`, `projects.png`, `contact.png` in a `/screenshots` folder in your repo or upload them and use direct URLs.)*
+
+---
+
+## Getting Started
 
 ### Prerequisites
-
-- [Node.js](https://nodejs.org/) (recommended current LTS version)  
-- [Git](https://git-scm.com/)  
+- Node.js  
+- Git  
 
 ### Installation
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/portfolio-sunil-react.git
-   cd portfolio-sunil-react
+```bash
+git clone https://github.com/your-username/portfolio-sunil-react.git
+cd portfolio-sunil-react
+npm install
