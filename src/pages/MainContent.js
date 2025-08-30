@@ -19,7 +19,7 @@
             <h1 className="heading-primary">Hey, I'm Sunil Sahani</h1>
             <div className="home-hero__info">
               <p className="text-primary">
-                I am a <strong>Web Developer</strong> working on both <strong>front-end</strong> and <strong>back-end</strong> development in <strong>nopCommerce</strong>. 
+                I am a <strong>Full Stack Developer</strong> working on both <strong>front-end</strong> and <strong>back-end</strong> development in <strong>nopCommerce</strong>. 
                 I have experience in customizing <strong>nopCommerce plugins, developing themes, and implementing CRUD operations</strong>. 
                 My expertise includes <strong>ASP.NET Core, C#, Entity Framework, and SQL Server</strong>.
               </p>
@@ -67,7 +67,7 @@
               <h3 className="about__content-title">Get to know me!</h3>
               <div className="about__content-details">
                 <p className="about__content-details-para">
-                  I'm a <strong>Web Developer</strong> building and managing the Front-end of Websites and Web Applications that
+                  I'm a <strong>Full Stack Developer</strong> building and managing the Front-end of Websites and Web Applications that
                   leads to the success of the overall product. Check out some of
                   my work in the <strong>Projects</strong> section.
                 </p>

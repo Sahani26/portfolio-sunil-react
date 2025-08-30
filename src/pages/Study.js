@@ -33,7 +33,7 @@ const Study = () => {
                     <h1 className="heading-primary">Hey, I'm Sunil Sahani</h1>
                     <div className="home-hero__info">
                         <p className="text-primary">
-                            I am a <strong>Web Developer</strong> working on both <strong>front-end</strong> and <strong>back-end</strong> development in <strong>nopCommerce</strong>. I have experience in customizing <strong>nopCommerce plugins, developing themes, and implementing CRUD operations</strong>. My expertise includes <strong>ASP.NET Core, C#, Entity Framework, and SQL Server</strong>.
+                            I am a <strong>Full Stack Developer</strong> working on both <strong>front-end</strong> and <strong>back-end</strong> development in <strong>nopCommerce</strong>. I have experience in customizing <strong>nopCommerce plugins, developing themes, and implementing CRUD operations</strong>. My expertise includes <strong>ASP.NET Core, C#, Entity Framework, and SQL Server</strong>.
                         </p>
                         <p className="text-primary">
                             I am passionate about building <strong>scalable and efficient</strong> e-commerce solutions and continuously improving my skills in <strong>ASP.NET development</strong>.
