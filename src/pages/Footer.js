@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="main-footer__row main-footer__row-2">
             <h2 className="heading heading-sm text-lt">Sunil Sahani</h2>
             <p className="main-footer__short-desc">
-              I am a Full Stack Developer working on both front-end and back-end development in nopCommerce.
+              I test am a Full Stack Developer working on both front-end and back-end development in nopCommerce.
               I have experience in customizing nopCommerce plugins, developing themes, and implementing CRUD operations.
               My expertise includes <strong>ASP.NET Core, C#, Entity Framework, and SQL Server</strong>.
               <br /><br /> 
